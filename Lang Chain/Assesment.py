@@ -9,7 +9,7 @@ import chromadb
 import tiktoken
 import nltk
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'YOUR OPENAI API KEY'
 
 file = TextLoader("Cristiano_Ronaldo.txt")
 documents = file.load()
